@@ -136,7 +136,7 @@ let tipDisplay = document.getElementById('tipDisplay');
 
 
 document.getElementById('displayAllTips').addEventListener('click', () => {
-  tipDisplay.innerHTML = ''; // Clear the current tips
+  tipDisplay.innerHTML = '';
   for (let tip of tips) {
     const p = document.createElement('p');
     p.textContent = tip;
